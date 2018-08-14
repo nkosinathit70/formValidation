@@ -1,14 +1,39 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <form>
+        <ion-list>
+            <ion-item>
+                <ion-label>First Name :</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <p>*first name Requred</p>
+            </ion-item>
+            <ion-item>
+                <ion-label>Last Name :</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <p>*last name Requred</p>
+            </ion-item>
+            <ion-item>
+                <ion-label>First Name :</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <p>* email Requred</p>
+            </ion-item>
+            <ion-item>
+
+                <button ion-button default (click)="onSubmit()">SUBMIT</button>
+            </ion-item>
+        </ion-list>
+    </form>
 </ion-content>
